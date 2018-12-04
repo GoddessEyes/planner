@@ -1,0 +1,38 @@
+h3{
+    margin: 0;
+    flex-grow: 1;
+}
+.title{
+    align-items: flex-start;
+    text-align: center;
+}
+.title button{
+    float: right;
+}
+.task__body{
+    text-align: center;
+}
+.task{
+    border-radius: 3px;
+    background-color: #d2e1c8;
+    margin-top: 15px;
+    border: 2px solid lightyellow;
+    padding: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #210124;
+    box-shadow: none;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+}
+.success{
+    color:lightgreen
+}
+.delete{
+    color:salmon;
+}

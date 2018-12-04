@@ -1,0 +1,17 @@
+.taskplanner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.taskplanner__wrapper{
+    flex-basis: 950px;
+    height: 600px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin: 0 15px;;
+}

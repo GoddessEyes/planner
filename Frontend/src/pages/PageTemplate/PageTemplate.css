@@ -1,0 +1,16 @@
+.page{
+    margin-top: 10px;
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+}
+.content{
+    flex-basis: 600px;
+}
+.new-tasks-page .content{
+    align-self: flex-start;
+}
+.new-tasks-page{
+    margin-top: 50px;
+}

@@ -1,0 +1,16 @@
+.complete-tasks-page .task{
+    background-color: #B3DEC1;
+}
+.complete-tasks-page button{
+    display:none
+}
+button{
+    z-index: 100;
+}
+.link{
+    align-self: stretch;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}

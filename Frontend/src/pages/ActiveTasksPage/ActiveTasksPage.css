@@ -1,0 +1,7 @@
+.active-tasks-page {
+    margin-top: 25px;
+    align-items: flex-start;
+}
+.active-tasks-page .task{
+    background-color: lightblue;
+}

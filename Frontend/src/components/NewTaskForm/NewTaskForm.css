@@ -1,0 +1,46 @@
+.input{
+    display: flex;
+    align-items: center;
+}
+textarea{
+    height: 150px;
+}
+label{
+    align-self: center;
+    background-color: white;
+    margin-left: 15px;
+    width: 40px;
+}
+input,
+textarea{
+    outline: none;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid #210124;
+    flex-grow: 1;
+
+    padding: 10px;
+}
+input:focus,
+textarea:focus{
+    background-color: rgb(231, 230, 247);
+}
+.textarea{
+    margin-top: 20px;
+}
+.new-task-form{
+    text-align: center;
+}
+.create-button{
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #210124;
+    box-shadow: none;
+    background: white;
+    margin-top: 20px;
+    padding: 5px 25px;
+}
+.create-button:active{
+    background-color: rgb(210, 207, 245);
+}
